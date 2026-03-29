@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    { "source": "/ig",         "destination": "https://conwayconnects.com?utm_source=instagram&utm_medium=social&utm_campaign=organic",    "permanent": false },
+    { "source": "/igs",        "destination": "https://conwayconnects.com?utm_source=instagram&utm_medium=stories&utm_campaign=organic",   "permanent": false },
+    { "source": "/tt",         "destination": "https://conwayconnects.com?utm_source=tiktok&utm_medium=social&utm_campaign=organic",       "permanent": false },
+    { "source": "/ttv",        "destination": "https://conwayconnects.com?utm_source=tiktok&utm_medium=video&utm_campaign=organic",        "permanent": false },
+    { "source": "/email",      "destination": "https://conwayconnects.com?utm_source=email&utm_medium=email&utm_campaign=newsletter",      "permanent": false },
+    { "source": "/newsletter", "destination": "https://conwayconnects.com?utm_source=newsletter&utm_medium=email&utm_campaign=newsletter", "permanent": false },
+    { "source": "/yt",         "destination": "https://conwayconnects.com?utm_source=youtube&utm_medium=social&utm_campaign=organic",      "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag",          "value": "index, follow" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options",        "value": "SAMEORIGIN" }
+      ]
+    }
+  ]
+}
