@@ -1,4 +1,8 @@
 {
+  "rewrites": [
+    { "source": "/onboard",       "destination": "https://credit-onboard-flow.vercel.app/onboard" },
+    { "source": "/onboard/:path*", "destination": "https://credit-onboard-flow.vercel.app/onboard/:path*" }
+  ],
   "redirects": [
     { "source": "/ig",         "destination": "https://conwayconnects.com?utm_source=instagram&utm_medium=social&utm_campaign=organic",    "permanent": false },
     { "source": "/igs",        "destination": "https://conwayconnects.com?utm_source=instagram&utm_medium=stories&utm_campaign=organic",   "permanent": false },
